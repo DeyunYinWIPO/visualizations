@@ -12,7 +12,7 @@ This is a sample code for producing chart 4.4, 4.5 and dynamic maps for World In
 
 - [Chart 4.5](./Maps/Charts/chart4.5/): is a static map displaying the geographical distribution of global Agbio innovation clusters.
 
-- [Dynamic maps](./Maps/Charts/dynamic maps/)
+- [Dynamic maps](./Maps/Charts/dynamicmaps/)
 : It generate an interactive maps displaying the evoluton of global agbio clusters during past two decades.
 
 

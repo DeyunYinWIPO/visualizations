@@ -20,6 +20,7 @@ This is a sample code for producing chart 4.4, 4.5 and dynamic maps for World In
 This [code]('./Streamgraph/code/streamgraph of global patenting.ipynb') makes an overview of global patenting activities.
 
 Charts includes: 
+
 - [Chart 1](./Streamgraph/charts/Chart1_pat_sector_since 1900.html): Overview of global patenting by different technological sectors. 
 
 - [Chart 2](./Streamgraph/charts/Chart2_pat_subsector_since 1900.html): Overview of global patenting by different technological fields.

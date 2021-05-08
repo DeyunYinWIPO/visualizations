@@ -1,3 +1,4 @@
+
 # visualizations
 This repository is a collection of some visualization of global innovation activities
 
@@ -25,8 +26,8 @@ Charts includes:
 
 - [Chart 2](./Streamgraph/charts/Chart2_pat_subsector_since 1900.html): Overview of global patenting by different technological fields.
 
-- [Chart 3](./Streamgraph/charts/Chart3_pat_subsector_share_since 1990.png): Share of global patenting by different technological sectors.
+- [Chart 3](./Streamgraph/charts/Chart3_pat_subsector_share_since1990.png): Share of global patenting by different technological sectors.
 
-- [Chart 4](./Streamgraph/charts/Chart4_pat_subsector_streamgraph_since 1950.html): An interactive streamgraph of global patenting by different technological fields.
+- [Chart 4](./Streamgraph/charts/Chart4_pat_subsector_streamgraph_since1950.html): An interactive streamgraph of global patenting by different technological fields.
 
 - [Chart 5](./Streamgraph/charts/Chart5_pat_subsector_streamgraph_EE_since1950.html): An interactive streamgraph of global patenting by different technological fields in Electrical Engineering. 

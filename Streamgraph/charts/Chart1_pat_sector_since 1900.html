@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-9ee6173425c1e6541ca7cb72e87fba4a"}, "mark": "line", "encoding": {"color": {"type": "nominal", "field": "sector_lab"}, "x": {"type": "ordinal", "field": "year_dmy"}, "y": {"type": "quantitative", "field": "inp_famq"}}, "height": 300, "width": 300, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-9ee6173425c1e6541ca7cb72e87fba4a": [{"year_dmy": 1900, "sector_lab": "Chemistry", "inp_famq": 19528}, {"year_dmy": 1900, "sector_lab": "Electrical engineering", "inp_famq": 11685}, {"year_dmy": 1900, "sector_lab": "Instruments", "inp_famq": 13209}, {"year_dmy": 1900, "sector_lab": "Mechanical engineering", "inp_famq": 72555}, {"year_dmy": 1900, "sector_lab": "Other fields", "inp_famq": 24859}, {"year_dmy": 1910, "sector_lab": "Chemistry", "inp_famq": 48026}, {"year_dmy": 1910, "sector_lab": "Electrical engineering", "inp_famq": 36408}, {"year_dmy": 1910, "sector_lab": "Instruments", "inp_famq": 30229}, {"year_dmy": 1910, "sector_lab": "Mechanical engineering", "inp_famq": 199430}, {"year_dmy": 1910, "sector_lab": "Other fields", "inp_famq": 60543}, {"year_dmy": 1920, "sector_lab": "Chemistry", "inp_famq": 147432}, {"year_dmy": 1920, "sector_lab": "Electrical engineering", "inp_famq": 132131}, {"year_dmy": 1920, "sector_lab": "Instruments", "inp_famq": 82167}, {"year_dmy": 1920, "sector_lab": "Mechanical engineering", "inp_famq": 507952}, {"year_dmy": 1920, "sector_lab": "Other fields", "inp_famq": 183175}, {"year_dmy": 1930, "sector_lab": "Chemistry", "inp_famq": 183629}, {"year_dmy": 1930, "sector_lab": "Electrical engineering", "inp_famq": 163200}, {"year_dmy": 1930, "sector_lab": "Instruments", "inp_famq": 98001}, {"year_dmy": 1930, "sector_lab": "Mechanical engineering", "inp_famq": 457367}, {"year_dmy": 1930, "sector_lab": "Other fields", "inp_famq": 167470}, {"year_dmy": 1940, "sector_lab": "Chemistry", "inp_famq": 177982}, {"year_dmy": 1940, "sector_lab": "Electrical engineering", "inp_famq": 151434}, {"year_dmy": 1940, "sector_lab": "Instruments", "inp_famq": 93233}, {"year_dmy": 1940, "sector_lab": "Mechanical engineering", "inp_famq": 383148}, {"year_dmy": 1940, "sector_lab": "Other fields", "inp_famq": 130561}, {"year_dmy": 1950, "sector_lab": "Chemistry", "inp_famq": 392347}, {"year_dmy": 1950, "sector_lab": "Electrical engineering", "inp_famq": 270698}, {"year_dmy": 1950, "sector_lab": "Instruments", "inp_famq": 160573}, {"year_dmy": 1950, "sector_lab": "Mechanical engineering", "inp_famq": 641334}, {"year_dmy": 1950, "sector_lab": "Other fields", "inp_famq": 198016}, {"year_dmy": 1960, "sector_lab": "Chemistry", "inp_famq": 1135132}, {"year_dmy": 1960, "sector_lab": "Electrical engineering", "inp_famq": 629046}, {"year_dmy": 1960, "sector_lab": "Instruments", "inp_famq": 387613}, {"year_dmy": 1960, "sector_lab": "Mechanical engineering", "inp_famq": 1369890}, {"year_dmy": 1960, "sector_lab": "Other fields", "inp_famq": 419920}, {"year_dmy": 1970, "sector_lab": "Chemistry", "inp_famq": 2748977}, {"year_dmy": 1970, "sector_lab": "Electrical engineering", "inp_famq": 1815845}, {"year_dmy": 1970, "sector_lab": "Instruments", "inp_famq": 1188150}, {"year_dmy": 1970, "sector_lab": "Mechanical engineering", "inp_famq": 3427711}, {"year_dmy": 1970, "sector_lab": "Other fields", "inp_famq": 1175539}, {"year_dmy": 1980, "sector_lab": "Chemistry", "inp_famq": 3456544}, {"year_dmy": 1980, "sector_lab": "Electrical engineering", "inp_famq": 2985821}, {"year_dmy": 1980, "sector_lab": "Instruments", "inp_famq": 1940161}, {"year_dmy": 1980, "sector_lab": "Mechanical engineering", "inp_famq": 4283632}, {"year_dmy": 1980, "sector_lab": "Other fields", "inp_famq": 1383263}, {"year_dmy": 1990, "sector_lab": "Chemistry", "inp_famq": 5209061}, {"year_dmy": 1990, "sector_lab": "Electrical engineering", "inp_famq": 4630328}, {"year_dmy": 1990, "sector_lab": "Instruments", "inp_famq": 2703232}, {"year_dmy": 1990, "sector_lab": "Mechanical engineering", "inp_famq": 4603708}, {"year_dmy": 1990, "sector_lab": "Other fields", "inp_famq": 1642067}, {"year_dmy": 2000, "sector_lab": "Chemistry", "inp_famq": 7148428}, {"year_dmy": 2000, "sector_lab": "Electrical engineering", "inp_famq": 8679084}, {"year_dmy": 2000, "sector_lab": "Instruments", "inp_famq": 4261503}, {"year_dmy": 2000, "sector_lab": "Mechanical engineering", "inp_famq": 6045673}, {"year_dmy": 2000, "sector_lab": "Other fields", "inp_famq": 2387956}, {"year_dmy": 2010, "sector_lab": "Chemistry", "inp_famq": 9144563}, {"year_dmy": 2010, "sector_lab": "Electrical engineering", "inp_famq": 10856793}, {"year_dmy": 2010, "sector_lab": "Instruments", "inp_famq": 5985533}, {"year_dmy": 2010, "sector_lab": "Mechanical engineering", "inp_famq": 10299910}, {"year_dmy": 2010, "sector_lab": "Other fields", "inp_famq": 3948008}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

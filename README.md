@@ -8,9 +8,9 @@ This repository is a collection of some visualization of global innovation activ
 
 This is a sample code for producing chart 4.4, 4.5 and dynamic maps for World Intellectual Property Report 2019. 
 
-- [Chart 4.4](./Maps/Charts/chart 4.4/): is a static map displaying the geographical distribution of global Agbio patents and scientific publications.  
+- [Chart 4.4](./Maps/Charts/chart4.4/): is a static map displaying the geographical distribution of global Agbio patents and scientific publications.  
 
-- [Chart 4.5](./Maps/Charts/chart 4.5/): is a static map displaying the geographical distribution of global Agbio innovation clusters.
+- [Chart 4.5](./Maps/Charts/chart4.5/): is a static map displaying the geographical distribution of global Agbio innovation clusters.
 
 - [Dynamic maps](./Maps/Charts/dynamic maps/)
 : It generate an interactive maps displaying the evoluton of global agbio clusters during past two decades.

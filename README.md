@@ -4,7 +4,7 @@ This repository is a collection of some visualization of global innovation activ
 
 ### [Maps](./Maps/) 
 
-[Mapping global agbio innovation clusters](./Maps/code/Mapping global agbio innovation clusters.ipynb)
+[Mapping global agbio innovation clusters](./Maps/code/Mapping_global_agbio_innovation_clusters.ipynb)
 
 This is a sample code for producing chart 4.4, 4.5 and dynamic maps for World Intellectual Property Report 2019. 
 
@@ -18,7 +18,7 @@ This is a sample code for producing chart 4.4, 4.5 and dynamic maps for World In
 
 ### [Streamgraph](./Streamgraph/) 
 
-This [code](./Streamgraph/code/streamgraph of global patenting.ipynb) makes an overview of global patenting activities.
+This [code](./Streamgraph/code/streamgraph of globalpatenting.ipynb) makes an overview of global patenting activities.
 
 Charts include: 
 
